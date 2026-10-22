@@ -109,7 +109,7 @@ function App() {
               취향과 동선을 담아 약속 전 고민을 덜어드릴게요.
             </p>
             <div className="hero-actions">
-              <a className="button button-dark" href="#signup">나만의 루트 받아보기 <ArrowIcon /></a>
+              <a className="button button-dark" href="#signup">사전 신청하기 <ArrowIcon /></a>
               <a className="text-link" href="#solution">루트메이트 알아보기 <span aria-hidden="true">↓</span></a>
             </div>
             <div className="hero-note"><span className="avatar-stack"><i>J</i><i>M</i><i>Y</i></span><span>약속 전 고민, 이제 함께 가볍게</span></div>
@@ -191,7 +191,7 @@ function App() {
               <div className="section-kicker">SAME CITY, DIFFERENT KIND OF DAY</div>
               <h2>오늘은 친구랑,<br />내일은 연인과.</h2>
               <p>한 명은 느긋한 산책, 한 명은 맛있는 디저트.<br />서로 다른 취향도 한 코스 안에서 만날 수 있어요.</p>
-              <a className="text-link" href="#signup">우리도 미리 써보기 <span aria-hidden="true">↗</span></a>
+              <a className="text-link" href="#signup">우리도 먼저 만나보기 <span aria-hidden="true">↗</span></a>
             </div>
             <div className="scenario-board">
               <div className="board-header"><span>SEOUL · SATURDAY</span><span className="board-menu">•••</span></div>
@@ -206,10 +206,10 @@ function App() {
         </section>
 
         <section className="pricing-section section-shell" id="pricing">
-          <div className="pricing-heading"><div className="section-kicker">SIMPLE FROM DAY ONE</div><h2>좋은 하루의 계획,<br /><span>부담 없이 시작해요.</span></h2><p>먼저 써보고, 마음에 들면 더 오래 함께해요.</p></div>
+          <div className="pricing-heading"><div className="section-kicker">SIMPLE FROM DAY ONE</div><h2>좋은 하루의 계획,<br /><span>부담 없이 시작해요.</span></h2><p>사전 신청하고 출시 소식을 가장 먼저 받아보세요.</p></div>
           <div className="pricing-grid">
             <article className="price-plan">
-              <div className="plan-label">EARLY ACCESS</div><h3>먼저 만나보기</h3><p>사전 신청자에게 첫 번째 루트를 보내드려요.</p>
+              <div className="plan-label">EARLY ACCESS</div><h3>먼저 만나보기</h3><p>사전 신청자에게 출시 소식을 가장 먼저 전해드려요.</p>
               <div className="plan-price">무료 <small>/ 얼리 액세스</small></div>
               <ul><li>취향 맞춤 코스 추천</li><li>친구와 루트 공유</li><li>베타 업데이트 우선 안내</li></ul>
               <a className="button button-dark" href="#signup">무료로 사전 신청 <ArrowIcon /></a>
@@ -236,7 +236,7 @@ function App() {
                   <label htmlFor="email">이메일</label><input id="email" name="email" type="email" placeholder="소식을 받을 이메일 주소" autoComplete="email" required />
                   <label htmlFor="plan">가장 기대하는 것</label><select id="plan" name="plan" defaultValue="" required><option value="" disabled>하나를 골라주세요</option><option value="recommendation">취향에 맞는 코스 추천</option><option value="collaboration">친구와 함께 루트 만들기</option><option value="route">편한 이동 동선 찾기</option></select>
                   <button className="button button-orange" type="submit">사전 신청하고 소식 받기 <ArrowIcon /></button>
-                  <p className="form-privacy">신청 정보는 출시 안내에만 사용돼요.</p>
+                  <p className="form-privacy">데모 신청 정보는 이 브라우저에만 저장돼요.</p>
                 </form>
               )}
             </div>
